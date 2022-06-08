@@ -13,6 +13,14 @@ body {
   height: 100%;
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
 #title-bar {
   height: 31px;
   background-color: black;
